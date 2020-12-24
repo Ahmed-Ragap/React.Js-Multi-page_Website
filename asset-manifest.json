@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gam_website/static/css/main.d56a1286.chunk.css",
+    "main.js": "/gam_website/static/js/main.c597d3ad.chunk.js",
+    "main.js.map": "/gam_website/static/js/main.c597d3ad.chunk.js.map",
+    "runtime-main.js": "/gam_website/static/js/runtime-main.2b49686d.js",
+    "runtime-main.js.map": "/gam_website/static/js/runtime-main.2b49686d.js.map",
+    "static/js/2.b7eaf997.chunk.js": "/gam_website/static/js/2.b7eaf997.chunk.js",
+    "static/js/2.b7eaf997.chunk.js.map": "/gam_website/static/js/2.b7eaf997.chunk.js.map",
+    "static/js/3.4cb9f8cc.chunk.js": "/gam_website/static/js/3.4cb9f8cc.chunk.js",
+    "static/js/3.4cb9f8cc.chunk.js.map": "/gam_website/static/js/3.4cb9f8cc.chunk.js.map",
+    "index.html": "/gam_website/index.html",
+    "static/css/main.d56a1286.chunk.css.map": "/gam_website/static/css/main.d56a1286.chunk.css.map",
+    "static/js/2.b7eaf997.chunk.js.LICENSE.txt": "/gam_website/static/js/2.b7eaf997.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/gam_website/static/media/mouckup.fc6b839e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b49686d.js",
+    "static/js/2.b7eaf997.chunk.js",
+    "static/css/main.d56a1286.chunk.css",
+    "static/js/main.c597d3ad.chunk.js"
+  ]
+}
