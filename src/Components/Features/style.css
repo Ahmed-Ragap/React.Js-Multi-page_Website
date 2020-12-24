@@ -1,0 +1,112 @@
+.fetures {
+    overflow: hidden;
+  }
+  .fetures .container h3 {
+    padding-top: 150px;
+  }
+  .fetures .container h3:before {
+    position: absolute;
+    overflow: hidden;
+    content: "hello";
+    color: #ff0055;
+    margin-top: 150px;
+    font-size: 199px;
+    opacity: 0.1;
+    margin-left: -200px;
+  }
+  .fetures .container .row {
+    padding: 50px 0 50px 0;
+  }
+  .fetures .container .row .col-sm-12 {
+    margin: 50px auto;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .fetures .container .row .col-sm-12:hover {
+    background-color: #2b42ea;
+  }
+  .fetures .container .row .col-sm-12 i {
+    display: block;
+    font-size: 35px;
+    color: #d63138;
+    margin-top: 20px;
+  }
+  .fetures .container .row .col-sm-12 h4 {
+    display: block;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 15px auto;
+  }
+  .fetures .container .row .col-sm-12 p {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #888;
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  /*start subscripe div elements*/
+  .fetures .subscripe {
+    position: relative;
+    background-image: url('../../img/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  .fetures .subscripe .container h2 {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    color: #fff;
+  }
+  .fetures .subscripe .container p {
+    text-transform: capitalize;
+    line-height: 1.3;
+    display: block;
+    margin: 20px auto;
+    color: #ccc;
+    text-transform: capitalize;
+    font-weight: bold;
+    position: relative;
+  }
+  .fetures .subscripe .container button.one {
+    background-color: #2b42ea;
+    border: 1px solid #2b42ea;
+  }
+  .fetures .subscripe .container button {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    margin: 0 10px;
+    background-color: transparent;
+    border: 1px solid #2b42ea;
+    margin-bottom: 100px;
+    position: relative;
+    color: #fff;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+  .fetures .subscripe .container button.two:hover {
+    background-color: #2b42ea;
+  }
+  

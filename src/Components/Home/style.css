@@ -1,0 +1,87 @@
+#myCarousel {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  #myCarousel .carousel-inner .carousel-item {
+    position: relative;
+  }
+  #myCarousel .carousel-inner .carousel-item .over {
+    background: #FF512F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DD2476, #FF512F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  #myCarousel .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 600px !important;
+  }
+  #myCarousel .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 120px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+  }
+  #myCarousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #myCarousel .carousel-inner .carousel-item .carousel-caption h3 span {
+    color: #2b42ea;
+  }
+  #myCarousel .carousel-inner .carousel-item .carousel-caption p{
+    width: 70%;
+    margin: 5px auto;
+  }
+  @media (max-width:991px) {
+    #myCarousel .carousel-inner .carousel-item .carousel-caption p{
+      width: 90%;
+    }
+  }
+  #myCarousel .carousel-inner .carousel-item .carousel-caption button {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    background-color: rgba(43, 66, 234, 0.8);
+    border-color: rgba(43, 66, 234, 0.8);
+    height: 45px;
+    width: 160px;
+  }
+  #myCarousel .carousel-inner .carousel-item .carousel-caption button.contact {
+    background-color: transparent;
+    background-image: none;
+    margin: 0 10px;
+  }
+  #myCarousel .carousel-inner .carousel-item .carousel-caption button.contact:hover {
+    background-color: #2b42ea;
+    border-color: #2b42ea;
+  }
+  
+  #myCarousel ol li {
+    width: 30px;
+    height: 5px;
+  }

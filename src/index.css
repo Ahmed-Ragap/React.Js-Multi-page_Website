@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -os-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'open sans, tahoma';
+   background-color: #ccc;
+   font-family: 'Sigmar One', cursive;
+   font-family: 'Marmelad', sans-serif;
+}
+
+body button {
+  outline: none !important;
+  text-transform: capitalize !important;
+}
+
+.contact, .mange-div, .subscripe {
+  position: relative;
+  margin-top: 0;
+  margin-left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact .over, .mange-div .over, .subscripe .over {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(1, 1, 1, 0.6) !important;
+}
+
+.contact .container .row .col-lg-9 .row .col-sm-12 button, #myCarousel .carousel-inner .carousel-item .carousel-caption button {
+  margin: 20px auto;
+  border: 1px solid #fff;
+  width: 120px;
+  padding: 8px;
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+.contact .container .row .col-lg-9 .row .col-sm-12 button:hover, #myCarousel .carousel-inner .carousel-item .carousel-caption button:hover {
+  background-color: #2b42ea;
+  border-color: #2b42ea;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2b42ea;
+  border: none;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d63138;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2b42ea;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+/*this clas will be added to navbar after scrolling  to top */
+.active-li {
+  color: #ddd !important;
+}
+
+/*adding style to navbar after scroll*/
+.scroll {
+ background-color: #f50 !important;
+  box-shadow: 0 0 10px 1px #666;
+  -webkit-box-shadow: 0 0 10px 1px #666;
+}

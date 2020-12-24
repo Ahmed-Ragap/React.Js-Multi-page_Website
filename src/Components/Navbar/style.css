@@ -1,0 +1,108 @@
+nav {
+  position: fixed !important; 
+  top: 0 !important;
+  width: 100%;
+  z-index: 9999;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+   background-color: #d63138 !important; 
+}
+
+nav a {
+  color: #fff;
+}
+nav a:focus {
+  color: red !important;
+}
+nav ul {
+  direction: ltr !important;
+  width: 100%;
+  float: right !important;
+  /*start media for min screen size 991px */
+  /*end media for min screen size 991px */
+}
+@media (min-width: 991px) {
+  nav ul {
+    margin-left: 35% !important;
+    justify-content: space-around;
+  }
+}
+nav ul li {
+  margin: 0 0.8%;
+  float: right;
+}
+@media (max-width: 991px) {
+  nav ul li {
+    margin-top: 10px;
+  }
+}
+nav ul li a {
+  font-size: 19px;
+  color: #fff;
+}
+
+.navbar .content-icon {
+  height: 40px;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+.navbar .content-icon img {
+  width: 93px;
+  height: 42px;
+  background-size: cover;
+}
+.navbar .content-icon i {
+  color: #fff;
+  font-size: 26px;
+}
+
+.navbar .nav-item .nav-link {
+  border-bottom: 2px solid transparent;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .nav-item .nav-link:active, .navbar .nav-item .nav-link:focus {
+  color: #2b42ea !important;
+  border-bottom: 2px solid #2b42ea;
+}
+@media (max-width: 991px) {
+  .navbar .nav-item .nav-link:active, .navbar .nav-item .nav-link:focus {
+    border-bottom: none;
+  }
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #999;
+}
+@media (max-width: 991px) {
+  .navbar .nav-item .nav-link:hover {
+    border-color: transparent;
+    outline: none;
+  }
+}
+
+.navbar button {
+  cursor: pointer;
+}
+
+.navbar-toggler.navbar-toggler-right {
+  background-color: #fff;
+}
+
+
+.scroll {
+  background-color: #f50 !important;
+   box-shadow: 0 0 10px 1px #666;
+   -webkit-box-shadow: 0 0 10px 1px #666;
+ }
+ 
